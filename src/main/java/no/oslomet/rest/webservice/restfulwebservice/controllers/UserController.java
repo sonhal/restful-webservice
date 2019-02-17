@@ -1,6 +1,7 @@
 package no.oslomet.rest.webservice.restfulwebservice.controllers;
 
 
+import no.oslomet.rest.webservice.restfulwebservice.exceptions.UserNotFoundException;
 import no.oslomet.rest.webservice.restfulwebservice.models.User;
 import no.oslomet.rest.webservice.restfulwebservice.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +30,12 @@ public class UserController {
 
     @GetMapping("/users/{id}")
     public User retrieveUser(@PathVariable int id){
-        return userService.findOne(id);
+        User user = userService.findOne(id);
+
+        if(user == null){
+            throw new UserNotFoundException("id-" + id);
+        }
+        return user;
     }
 
     @PostMapping("/users")
