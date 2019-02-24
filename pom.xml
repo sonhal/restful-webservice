@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.sonhal</groupId>
 	<artifactId>restful-webservice</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2-RELEASE</version>
 	<name>restful-webservice</name>
 	<description>Demo REST webservice project for Spring Boot</description>
 
