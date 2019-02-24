@@ -1,7 +1,7 @@
-package no.oslomet.rest.webservice.restfulwebservice.services;
+package com.github.sonhal.restfulwebservice.services;
 
 
-import no.oslomet.rest.webservice.restfulwebservice.models.User;
+import com.github.sonhal.restfulwebservice.models.User;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

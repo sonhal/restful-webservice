@@ -1,4 +1,4 @@
-package no.oslomet.rest.webservice.restfulwebservice.exceptions;
+package com.github.sonhal.restfulwebservice.exceptions;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package no.oslomet.rest.webservice.restfulwebservice.models;
+package com.github.sonhal.restfulwebservice.models;
 
 import java.util.Date;
 

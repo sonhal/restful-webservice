@@ -1,9 +1,9 @@
-package no.oslomet.rest.webservice.restfulwebservice.controllers;
+package com.github.sonhal.restfulwebservice.controllers;
 
 
-import no.oslomet.rest.webservice.restfulwebservice.exceptions.UserNotFoundException;
-import no.oslomet.rest.webservice.restfulwebservice.models.User;
-import no.oslomet.rest.webservice.restfulwebservice.services.UserService;
+import com.github.sonhal.restfulwebservice.exceptions.UserNotFoundException;
+import com.github.sonhal.restfulwebservice.models.User;
+import com.github.sonhal.restfulwebservice.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

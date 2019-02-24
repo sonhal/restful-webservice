@@ -1,4 +1,4 @@
-package no.oslomet.rest.webservice.restfulwebservice;
+package com.github.sonhal.restfulwebservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
