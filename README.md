@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/sonhal/restful-webservice.svg?branch=master)](https://travis-ci.com/sonhal/restful-webservice)
 # RESTful Web Service
 
 Social Media Application
